@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portada</title>
+</head>
+<body class="portada">
+    <picture class="imagen-fondo prova">
+        <source media="(max-width: 400px)" srcset="img/japon23.jpg">
+        <source media="(min-width: 401px)" srcset="img/japon.png">
+       <!-- <img class="imagen-fondo" src="img/japon.png">-->
+       <img class="imagen-fondo" src="img/japon.png">
+    </picture>
+    <h3 id="japon"></h3>
+    <div id="horaJapon">
+    </div>
+    <figure>
+        <a href="index.html" class="iconoinicio"><img src="img/dango.svg" alt="logo inicio"></a>
+    </figure>
+    <h1>¡Bienvenido al Portal de Gastronomía japonesa!</h1>
+    <p>Aprende recetas, historia y cultura de los mejores platos japoneses</p>
+    <nav class="opacidad">
+        <div class="item"><a href="categoria.html" >Platos</a></div>
+        <div class="item"><a href="presentacion.html">Presentación</a></div>
+        <div class="item"><a href="enlaces.html" >Enlaces</a></div>
+    </nav>
+    <script type="module" src="./index.js"></script>
+    <script nomodule src="./index.js"></script>
+</body>
+</html>
